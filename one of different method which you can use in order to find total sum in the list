@@ -1,18 +1,5 @@
-and this method looks like this, we have list (s=[1,2,3,4,5,6,7,8,9]) and together with we want to find total summ of all elements in this list, for this we should use to variable "sum"
-and this function all them plus all elements in this list withoput any problems and front to example here's else some information about this function ("sum" in Python this function allow to you add all elelments up
-to an iterable) and finally here's the example:
-
-s=[1,2,3,4,5,6,7,8,9]
-total=sum(s)
-print(total)
-and after this construction we will get output with final number which we can get from this list if we plus all these numbers, and here's which result we will get here:
-output: 45
-
-and also you can do that with create a function, this looks like this:
-def function count(list): "here we started create a function which can count any elements in our list)
-item_count=0
-for item in list:
-       items_count +=1
-return item_count
-next we should create container where we should write down our list with all numbers:
-count([1,2,3,4,5,6,7,8,9])
+def my_sum(num_list) -> int:
+       int sum = 0
+              for num in num_list:
+                     sum += num
+       return sum
